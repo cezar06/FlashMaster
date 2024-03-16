@@ -1,0 +1,23 @@
+.dropdown-with-icon .custom-dropdown {
+    position: relative;
+  }
+  
+  .dropdown-with-icon .custom-dropdown i {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;   
+  }
+  
+  .dropdown-with-icon .custom-dropdown select {
+    -webkit-appearance: none;   
+    -moz-appearance: none;
+    appearance: none;
+    padding-right: 30px;   
+  }
+
+  .alert-with-margin {
+    margin-top: 20px;   
+  }
+  

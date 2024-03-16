@@ -1,0 +1,48 @@
+.flashcard-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); 
+  grid-gap: 20px;
+  justify-content: center;
+  align-items: start; 
+  grid-auto-rows: 1fr; 
+}
+.search-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px; 
+  font-size: 16px; 
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+.sort-button {
+  background-color: #BB86FC; 
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin-left: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  transition: background-color 0.3s;
+}
+
+.sort-button:hover {
+  background-color: #a275f7; 
+}
+
+.sort-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(187, 134, 252, 0.5); 
+}
+
+.sorting-buttons-container {
+  display: flex;
+  flex-direction: row; 
+  justify-content: flex-start; 
+  margin-bottom: 10px; 
+}

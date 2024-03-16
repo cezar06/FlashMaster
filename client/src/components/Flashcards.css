@@ -1,0 +1,236 @@
+.flashcard-container {
+  width: 592px;
+  height: 381px;
+  margin: 20px auto;
+  background: #1E1E2E; 
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  color: #FFFFFF; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flashcard {
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+.word-section h2 {
+  font-size: 48px; 
+  text-transform: lowercase; 
+  color: #BB86FC; 
+  margin-bottom: 8px; 
+}
+
+.translation-section h3 {
+  font-size: 24px; 
+  margin-bottom: 8px; 
+}
+
+.example-section .example-sentence {
+  font-size: 18px; 
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(187, 134, 252, 0.75), rgba(255, 255, 255, 0)); /* Gradient line */
+  margin: 10px 0; 
+  width: 100%; 
+}
+
+.audio-section .play-button {
+  background: #BB86FC; 
+  border: none;
+  border-radius: 50%; 
+  color: #FFFFFF;
+  padding: 10px; 
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.no-flashcards-message {
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.card-front {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; 
+  padding: 20px;
+  padding-bottom: 60px; 
+  height: 100%;
+}
+
+.word-section h2 {
+  font-size: 48px; 
+  text-transform: lowercase; 
+  color: #BB86FC; 
+  text-align: center; 
+  width: 100%; 
+  margin-bottom: 20px; 
+}
+
+.button-section {
+  position: absolute;
+  bottom: 20px; 
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+
+.btn {
+  background: transparent; 
+  color: #FFFFFF; 
+  border: 1px solid #BB86FC; 
+  border-radius: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px; 
+  transition: all 0.3s ease; 
+  box-shadow: none; 
+  margin: 0 10px; 
+}
+
+.btn:hover {
+  background: #BB86FC; 
+  color: white; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.image-button {
+}
+
+.flip-button {
+}
+
+.image-container {
+  width: 100%; 
+  max-height: 150px; 
+  margin: 0 auto; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  overflow: hidden;
+  padding: 0 0 10px 0; 
+}
+
+.card-image {
+  max-width: 100%; 
+  max-height: 100%; 
+  object-fit: cover; 
+  border-radius: 8px; 
+}
+
+.card-back {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 20px; 
+  align-items: flex-start; 
+  text-align: left; 
+}
+
+.difficulty-buttons {
+  margin-top: auto; 
+  width: 100%; 
+  display: flex; 
+  justify-content: space-around; 
+  align-items: center; 
+}
+
+.difficulty-btn {
+  padding: 10px 20px; 
+  margin: 5px; 
+  border-radius: 20px; 
+  border: 1px solid #BB86FC; 
+  color: #FFFFFF; 
+  background: transparent; 
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+}
+
+.difficulty-btn:hover {
+  background: #BB86FC;
+  color: white; 
+}
+
+.card-back .word-section h2 {
+  font-size: 36px; 
+  margin-bottom: 0.5em; 
+}
+
+
+.translate-text:hover {
+  background-color: rgba(187, 134, 252, 0.1); 
+}
+
+.translate-text {
+  color: #BB86FC; 
+  cursor: pointer;
+  text-decoration: underline;
+  margin-top: 20px; 
+  padding: 5px;
+  font-size: 18px; 
+  transition: background-color 0.3s ease;
+}
+
+.card-back .word-section h2 {
+  font-size: 36px; 
+  margin-bottom: 0.25em; 
+  
+}
+
+.card-back .translation-section h3 {
+  font-size: 32px; 
+  margin-bottom: 0.25em; 
+}
+
+.card-back .example-section .example-sentence {
+  font-size: 16px; 
+  margin-bottom: 0.25em; 
+}
+
+.card-back .translate-text {
+  margin-bottom: 0.25em; 
+}
+
+.card-back .audio-section {
+  margin-bottom: 0.25em; 
+}
+
+.card-back .difficulty-buttons {
+  margin-top: auto; 
+  padding-bottom: 10px; 
+}
+
+.audio-section .play-button {
+  background: none;
+  color: #BB86FC;
+}
+
+.audio-section .play-button:hover {
+  background-color: rgba(187, 134, 252, 0.1);
+}
+.sentence-and-play {
+  display: flex; 
+  align-items: center; 
+  gap: 10px; 
+}
+
+.example-section .example-sentence {
+  margin: 0; 
+  flex-grow: 1; 
+}
+
+.audio-section .play-button {
+  margin: 0; 
+}

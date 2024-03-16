@@ -1,0 +1,76 @@
+.card {
+  background-color: #333; 
+  border: none;
+  color: white; 
+}
+
+
+.btn-primary:hover {
+  background-color: #666; 
+  border-color: #666;
+}
+
+
+.card-body {
+    background-color: white; 
+    border: 5px solid #ddd; 
+    border-radius: .25rem; 
+    color: #333; 
+  }
+
+.bi-arrow-repeat::before {
+  content: "\21bb"; 
+}
+
+.btn-link {
+  padding-left: 0; 
+}
+
+.btn-outline-info,
+.btn-outline-success,
+.btn-outline-warning,
+.btn-outline-danger {
+  margin: 0 4px; 
+}
+
+.table-no-outline {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-no-outline th,
+.table-no-outline td {
+  border: none;
+  padding: 0.5rem; 
+}
+
+.table-no-outline thead th {
+  border-bottom: none;
+}
+.table-no-outline tbody tr:hover {
+  background-color: #f2f2f2; 
+}
+
+.text-new {
+    color: red !important; 
+  }
+  
+  .text-to-review {
+    color: green !important; 
+  }
+
+  .btn-dark {
+    color: white;
+    background-color: #555; 
+    border-color: #555;
+  }
+
+  .btn-dark:hover {
+    background-color: #666; 
+    border-color: #666;
+  }
+
+  .mx-2 {
+    margin-left: .5rem;
+    margin-right: .5rem;
+  }
